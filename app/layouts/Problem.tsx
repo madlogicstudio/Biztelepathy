@@ -8,7 +8,7 @@ function Problem() {
     return (
          <div className="w-full flex flex-col items-center justify-center sm:py-12 py-6 sm:px-0 md:px-3 px-3">
 
-            <div className="max-w-[1280px] w-full h-auto flex flex-col sm:items-start items-start justify-start gap-12 my-6">
+            <div className="max-w-[1280px] w-full h-auto flex flex-col sm:items-start items-start justify-start gap-12 my-6 md:px-6 px-0">
             
                 {/* <div className="flex-3 w-full">
                     <Image src="/images/Web.png" height={1000} width={1000} className="sm:block hidden" alt=""/>

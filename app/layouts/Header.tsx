@@ -16,7 +16,7 @@ function Header() {
     return (
         <div className="sticky top-0 bg-[var(--background)] w-full flex flex-row items-center justify-center py-4 sm:px-0 md:px-3 px-3 z-1 sm:opacity-90">
 
-            <div className="max-w-[1280px] w-full flex flex-row items-center justify-start sm:gap-12 gap-0">
+            <div className="max-w-[1280px] w-full flex flex-row items-center justify-start sm:gap-12 gap-0 md:px-6 px-0">
                 
                 <div className="flex flex-row items-center gap-3">
                     <Image src="/Icon.png" height={32} width={32} alt="" className="cursor-pointer"/>

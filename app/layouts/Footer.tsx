@@ -13,7 +13,7 @@ function Footer() {
     return (
         <div className="w-full flex flex-col items-center justify-center py-4 sm:px-0 md:px-3 px-3 border-t border-[var(--primary)]">
 
-            <div className="max-w-[1280px] w-full flex sm:flex-row flex-col items-start justify-start gap-12 py-20 flex-wrap">
+            <div className="max-w-[1280px] w-full flex sm:flex-row flex-col items-start justify-start gap-12 py-20 flex-wrap md:px-6 px-0">
 
                 <div className="flex-2 flex flex-col items-start justify-start gap-3">
 
@@ -90,7 +90,7 @@ function Footer() {
 
             </div>
 
-            <div className="max-w-[1280px] w-full flex flex-row items-center justify-start gap-3 border-t border-[var(--primary)] pt-8">
+            <div className="max-w-[1280px] w-full flex flex-row items-center justify-start gap-3 border-t border-[var(--primary)] pt-8 md:px-6 px-0">
                 <span className="font-sans text-sm text-gray-400">© 2026 Biztelepathy, Madlogicstudio.</span>
             </div>
 

@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowRight, Users, Brain, Sprout } from "lucide-react"
+import { ArrowRight, Brain, Sprout } from "lucide-react"
 import { CgBee } from "react-icons/cg"
 import Image from "next/image"
 
@@ -8,7 +8,7 @@ function Hero() {
     return (
         <div className="w-full flex flex-col items-center justify-center sm:py-12 py-6 sm:px-0 md:px-3 px-3">
 
-            <div className="max-w-[1280px] w-full h-auto flex sm:flex-row flex-col sm:items-center flex-start justify-start sm:gap-12 gap-3">
+            <div className="max-w-[1280px] w-full h-auto flex sm:flex-row flex-col sm:items-center flex-start justify-start sm:gap-12 gap-3 md:px-6 px-0">
 
                 <div className="flex-1 flex flex-col justify-center sm:gap-6 gap-0">
 
@@ -40,7 +40,8 @@ function Hero() {
 
                 </div>
 
-                <Image src="/images/Hero.png" height={700} width={700} alt=""/>
+                <Image src="/images/Hero.png" height={700} width={700} className="md:hidden flex" alt=""/>
+                <Image src="/images/Hero.png" height={500} width={500} className="md:flex hidden" alt=""/>
 
                 <div className="flex-1 sm:hidden flex flex-col items-start justify-start my-6">
 
@@ -100,7 +101,7 @@ function Hero() {
 
             </div>
 
-            <div className="max-w-[1280px] w-full h-auto flex sm:flex-row flex-col-reverse sm:items-center items-start justify-center gap-12 my-6">
+            <div className="max-w-[1280px] w-full h-auto flex sm:flex-row flex-col-reverse sm:items-center items-start justify-center gap-12 my-6 md:px-6 px-0">
 
                 <div className="flex-3 w-full">
                     <Image src="/images/Web.png" height={1000} width={1000} className="sm:block hidden" alt=""/>
