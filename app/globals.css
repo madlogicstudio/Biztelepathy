@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
+*{
+  transition: all 0.3s ease-in-out;
+}
+
+.hovered:hover{
+  color: var(--primary);
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #FDD314;
+  --secondary: #FFDD7F;
+  --accent: #FEEEC3;
 }
 
 @theme inline {
@@ -12,7 +23,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
