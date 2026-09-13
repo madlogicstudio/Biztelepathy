@@ -101,7 +101,7 @@ export const Chatbot = () => {
 
     return (
         <>
-            <div className="group fixed bottom-0 right-0 flex flex-col items-center p-3">
+            <div className="group fixed bottom-0 right-0 flex flex-col items-center p-3 z-1">
 
                 {showBubble && (
                     <div className="

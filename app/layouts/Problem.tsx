@@ -6,17 +6,13 @@ import { SlPuzzle } from "react-icons/sl"
 
 function Problem() {
     return (
-         <div className="w-full flex flex-col items-center justify-center sm:py-12 py-6 sm:px-0 md:px-3 px-3">
+        <div className="w-full flex flex-col items-center justify-center py-6 sm:px-0 md:px-3 px-3">
 
             <div className="max-w-[1280px] w-full h-auto flex flex-col sm:items-start items-start justify-start gap-12 my-6 md:px-6 px-0">
             
-                {/* <div className="flex-3 w-full">
-                    <Image src="/images/Web.png" height={1000} width={1000} className="sm:block hidden" alt=""/>
-                    <Image src="/images/Mobile.png" height={300} width={300} className="w-full sm:hidden block" alt=""/>
-                </div> */}
                 <div className="flex-2 flex flex-col items-start gap-3">
                     <span className="font-sans font-bold text-[color:var(--primary)] sm:text-4xl text-3xl">Running a Small Business Isn't Easy.</span>
-                    <span className="font-sans sm:text-lg sm:text-lg text-md text-gray-400">Starting a business doesn't have to mean juggling spreadsheets, notes, and disconnected tools. BizTelepathy brings your essential business 
+                    <span className="font-sans sm:text-lg sm:text-lg text-md text-gray-700">Starting a business doesn't have to mean juggling spreadsheets, notes, and disconnected tools. BizTelepathy brings your essential business 
                         activities together so you can focus on building and growing.</span>
                 </div>
 
@@ -28,7 +24,7 @@ function Problem() {
                         </div>
                         <div className="flex flex-col items-center text-center gap-3">
                             <span className="font-sans text-lg font-semibold">Too Much to Manage</span>
-                            <span className="font-sans text-md text-gray-400">Tasks, customers, sales, and goals can quickly become difficult to keep track of.</span>
+                            <span className="font-sans text-md text-gray-700">Tasks, customers, sales, and goals can quickly become difficult to keep track of.</span>
                         </div>
                     </div>
 
@@ -38,7 +34,7 @@ function Problem() {
                         </div>
                         <div className="flex flex-col items-center text-center gap-3">
                             <span className="font-sans text-lg font-semibold">Hard to See Progress</span>
-                            <span className="font-sans text-md text-gray-400">Without organized data, it's difficult to know whether your business is actually growing.</span>
+                            <span className="font-sans text-md text-gray-700">Without organized data, it's difficult to know whether your business is actually growing.</span>
                         </div>
                     </div>
 
@@ -48,10 +44,32 @@ function Problem() {
                         </div>
                         <div className="flex flex-col items-center text-center gap-3">
                             <span className="font-sans text-lg font-semibold">Too Many Tools</span>
-                            <span className="font-sans text-md text-gray-400">Jumping between different platforms can make simple business tasks complicated.</span>
+                            <span className="font-sans text-md text-gray-700">Jumping between different platforms can make simple business tasks complicated.</span>
                         </div>
                     </div>
 
+                </div>
+
+                <div className="flex-2 flex flex-col items-start gap-3 bg-[var(--secondary)] rounded-lg p-6">
+                    <span className="font-sans font-semibold sm:text-3xl text-2xl text-gray-700">Every Big Business Starts With a Small Hive.</span>
+                    <span className="font-sans sm:text-lg sm:text-lg text-md text-gray-700">Starting a business doesn't have to mean juggling spreadsheets, notes, and disconnected tools. BizTelepathy brings your essential business 
+                        activities together so you can focus on building and growing.</span>
+                </div>
+            
+            </div>
+
+            <div className="max-w-[1280px] w-full h-auto flex sm:flex-row flex-col-reverse sm:items-center items-start justify-center gap-12 my-6 md:px-6 px-0">
+  
+                <div className="flex-2 flex flex-col items-start gap-3">
+                    <span className="font-sans font-bold text-[color:var(--primary)] sm:text-4xl text-3xl">Your Entire Hive</span>
+                    <span className="font-sans font-bold text-[color:var(--primary)] sm:text-4xl text-3xl">One Dashboard</span>
+                    <span className="font-sans sm:text-lg sm:text-lg text-md text-gray-700">Get a simple overview of your business without digging through 
+                        spreadsheets or switching between multiple tools.</span>
+                </div>
+
+                <div className="flex-4 w-full">
+                    <Image src="/images/Web.png" height={1000} width={1000} className="sm:block hidden" alt=""/>
+                    <Image src="/images/Mobile.png" height={300} width={300} className="w-full sm:hidden block" alt=""/>
                 </div>
             
             </div>

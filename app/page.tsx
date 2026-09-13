@@ -5,6 +5,7 @@ import Header from "./layouts/Header"
 import Hero from "./layouts/Hero"
 import Footer from "./layouts/Footer"
 import Problem from "./layouts/Problem"
+import Solution from "./layouts/Solution"
 
 function page() {
   return (
@@ -15,6 +16,7 @@ function page() {
       <Header />
       <Hero />
       <Problem />
+      <Solution />
       <Footer />
 
     </div>

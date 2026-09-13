@@ -4,10 +4,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.hovered:hover{
-  color: var(--primary);
-}
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -34,4 +30,46 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.hovered:hover{
+  color: var(--primary);
+}
+
+.hexagon{
+  aspect-ratio: cos(30deg);
+  clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
+  background: #FFDD7F;
+}
+
+.hexagon:hover{
+  height: 325px;
+  transition: 0.3s ease-in-out;
+}
+
+@keyframes hero-idle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.hero-idle {
+  animation: bee-idle 3s ease-in-out infinite;
+}
+
+@keyframes bee-idle {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-10px) rotate(2deg);
+  }
+}
+
+.bee-idle {
+  animation: bee-idle 3s ease-in-out infinite;
 }
