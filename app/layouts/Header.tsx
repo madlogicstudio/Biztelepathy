@@ -60,14 +60,14 @@ function Header() {
                 
                 <div className="w-full flex flex-col items-center py-4 px-3">
 
-                    <div className="w-full flex flex-row items-center p-3 gap-1 hovered border-b border-gray-800">
-                        <span className="font-sans text-md cursor-pointer">Workspace</span> 
-                        <ChevronDown className="ml-auto h-6 w-6 cursor-pointer" />
+                    <div className="flex flex-row items-center justify-between gap-1 hovered border-b border-gray-800 p-3 w-full">
+                        <span className="font-sans text-md cursor-pointer">Features</span> 
+                        <ChevronDown className="h-4 w-4 cursor-pointer" />
                     </div>
-
-                    <span className="w-full font-sans text-md hovered p-3 cursor-pointer border-b border-gray-800">Pricing</span> 
-                    <span className="w-full font-sans text-md hovered p-3 cursor-pointer border-b border-gray-800">Docs</span> 
-                    <span className="w-full font-sans text-md hovered p-3 cursor-pointer border-b border-gray-800">Blog</span> 
+                     
+                    <span className="font-sans text-md cursor-pointer hovered border-b border-gray-800 p-3 w-full">How It Works</span> 
+                    <span className="font-sans text-md cursor-pointer hovered border-b border-gray-800 p-3 w-full">Docs</span> 
+                    <span className="font-sans text-md cursor-pointer hovered border-b border-gray-800 p-3 w-full">About</span> 
 
                 </div>
 
