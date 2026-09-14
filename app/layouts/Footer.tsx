@@ -8,6 +8,7 @@ import {
     FaYoutube,
     FaTiktok
 } from "react-icons/fa";
+import { ChevronUpCircle } from "lucide-react";
 
 function Footer() {
     return (
@@ -65,7 +66,7 @@ function Footer() {
 
                 <div className="flex-1 flex flex-col items-start justify-start gap-3">
 
-                    <span className="font-sans text-md">Developers</span>
+                    <span className="font-sans text-md">Developer</span>
 
                     <span className="font-sans text-md text-gray-400 cursor-pointer hovered">Documentation</span>
                     <span className="font-sans text-md text-gray-400 cursor-pointer hovered">Changelog</span>
@@ -75,7 +76,7 @@ function Footer() {
 
                 <div className="flex-1 flex flex-col items-start justify-start gap-3">
 
-                    <span className="font-sans text-md">Company</span>
+                    <span className="font-sans text-md text-">Company</span>
 
                     <span className="font-sans text-md text-gray-400 cursor-pointer hovered">Company</span>
                     <span className="font-sans text-md text-gray-400 cursor-pointer hovered">Careers</span>
@@ -90,8 +91,12 @@ function Footer() {
 
             </div>
 
-            <div className="max-w-[1280px] w-full flex flex-row items-center justify-start gap-3 border-t border-[var(--primary)] pt-8 md:px-6 px-0">
-                <span className="font-sans text-sm text-gray-400">© 2026 Biztelepathy, Madlogicstudio.</span>
+            <div className="max-w-[1280px] w-full flex sm:flex-row flex-col items-start justify-between gap-3 border-t border-[var(--primary)] pt-8 md:px-6 px-0">
+                <span className="font-sans text-md text-gray-400">© 2026 Biztelepathy, Madlogicstudio.</span>
+                <div className="flex flex-col items-center justify-center bg-[var(--secondary)] p-1 rounded-full cursor-pointer hover:bg-[var(--primary)]"
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+                    <ChevronUpCircle className="h-6 w-6" />
+                </div>
             </div>
 
 

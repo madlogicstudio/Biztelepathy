@@ -20,7 +20,7 @@ function Header() {
                 
                 <div className="flex flex-row items-center gap-3">
                     <Image src="/Icon.png" height={32} width={32} alt="" className="cursor-pointer"/>
-                    <span className="font-sans font-bold text-lg tracking-[0.1em] cursor-pointer">Biztelepathy</span>     
+                    <span className="font-sans font-bold text-lg tracking-[0.1em] cursor-pointer">BizTelepathy</span>     
                 </div>
 
                 <div className="lg:flex hidden flex-row items-center gap-6">
@@ -48,7 +48,7 @@ function Header() {
             </div>
 
             <div ref={menuRef} className={`w-full h-screen lg:hidden flex flex-col items-start justify-start gap-3 
-                bg-[var(--background)] fixed top-0 left-0 transition-transform duration-300
+                bg-[var(--background)] fixed top-0 left-0 transition-transform duration-300 z-4
                 ${isOpen ? "translate-x-0" : "-translate-x-full"}
                 ${!isOpen ? "translate-x-full" : "-translate-x-0"}`}>
                 

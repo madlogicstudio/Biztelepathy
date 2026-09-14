@@ -6,6 +6,8 @@ import Hero from "./layouts/Hero"
 import Footer from "./layouts/Footer"
 import Problem from "./layouts/Problem"
 import Solution from "./layouts/Solution"
+import Free from "./layouts/Free"
+import Cta from "./layouts/Cta"
 
 function page() {
   return (
@@ -17,6 +19,8 @@ function page() {
       <Hero />
       <Problem />
       <Solution />
+      <Free />
+      <Cta />
       <Footer />
 
     </div>

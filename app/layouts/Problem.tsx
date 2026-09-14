@@ -49,26 +49,19 @@ function Problem() {
                     </div>
 
                 </div>
-
-                <div className="flex-2 flex flex-col items-start gap-3 bg-[var(--secondary)] rounded-lg p-6">
-                    <span className="font-sans font-semibold sm:text-3xl text-2xl text-gray-700">Every Big Business Starts With a Small Hive.</span>
-                    <span className="font-sans sm:text-lg sm:text-lg text-md text-gray-700">Starting a business doesn't have to mean juggling spreadsheets, notes, and disconnected tools. BizTelepathy brings your essential business 
-                        activities together so you can focus on building and growing.</span>
-                </div>
             
             </div>
 
-            <div className="max-w-[1280px] w-full h-auto flex sm:flex-row flex-col-reverse sm:items-center items-start justify-center gap-12 my-6 md:px-6 px-0">
+            <div className="max-w-[1280px] w-full h-auto flex flex-col items-start justify-center gap-12 my-6 md:px-6 px-0">
   
                 <div className="flex-2 flex flex-col items-start gap-3">
-                    <span className="font-sans font-bold text-[color:var(--primary)] sm:text-4xl text-3xl">Your Entire Hive</span>
-                    <span className="font-sans font-bold text-[color:var(--primary)] sm:text-4xl text-3xl">One Dashboard</span>
+                    <span className="font-sans font-bold text-[color:var(--primary)] sm:text-4xl text-3xl">Your Entire Hive In One Dashboard</span>
                     <span className="font-sans sm:text-lg sm:text-lg text-md text-gray-700">Get a simple overview of your business without digging through 
                         spreadsheets or switching between multiple tools.</span>
                 </div>
 
                 <div className="flex-4 w-full">
-                    <Image src="/images/Web.png" height={1000} width={1000} className="sm:block hidden" alt=""/>
+                    <Image src="/images/Web.png" height={1000} width={1200} className="w-full sm:block hidden" alt=""/>
                     <Image src="/images/Mobile.png" height={300} width={300} className="w-full sm:hidden block" alt=""/>
                 </div>
             

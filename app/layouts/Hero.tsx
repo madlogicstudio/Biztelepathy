@@ -8,7 +8,7 @@ function Hero() {
     return (
         <div className="w-full flex flex-col items-center justify-center sm:py-0 py-6 sm:px-0 md:px-3 px-3">
 
-            <div className="max-w-[1280px] w-full h-auto flex lg:flex-row flex-col sm:items-center flex-start justify-start sm:gap-12 gap-3 md:px-6 px-0 lg:my-0 my-12">
+            <div className="max-w-[1280px] w-full h-auto flex lg:flex-row flex-col sm:items-center flex-start justify-start sm:gap-12 gap-3 md:px-6 px-0 my-0 sm:my-12">
 
                 <div className="flex-1 flex flex-col justify-center sm:gap-6 gap-0">
 
@@ -31,7 +31,7 @@ function Hero() {
                     <div className="flex-1 lg:flex hidden flex-col items-start justify-start">
 
                         <div className="flex flex-col gap-3">
-                            <span className="font-sans sm:text-lg text-md text-gray-700">Smart business management for small businesses ready to grow.</span>
+                            <span className="font-sans sm:text-lg text-md text-gray-700">A Free business management for small businesses ready to grow.</span>
                             <span className="font-sans sm:text-lg text-md text-gray-700">BizTelepathy gives you simple tools to organize your business, manage daily operations, track progress, and make smarter decisions—all in one place.</span>
                             <span className="font-sans sm:text-lg text-md text-gray-700">Completely Free • No subscriptions • No hidden fees</span>
                         </div>
@@ -46,9 +46,9 @@ function Hero() {
                 <div className="flex-1 lg:hidden flex flex-col items-start justify-start md:my-0 my-6">
 
                     <div className="flex flex-col gap-3 text-center">
-                        <span className="font-sans sm:text-lg text-md text-gray-400">Smart business management for small businesses ready to grow.</span>
-                        <span className="font-sans sm:text-lg text-md text-gray-400">BizTelepathy gives you simple tools to organize your business, manage daily operations, track progress, and make smarter decisions—all in one place.</span>
-                        <span className="font-sans sm:text-lg text-md text-gray-400">Completely Free <br/> No subscriptions <br/> No hidden fees</span>
+                        <span className="font-sans sm:text-lg text-md text-gray-700">Smart business management for small businesses ready to grow.</span>
+                        <span className="font-sans sm:text-lg text-md text-gray-700">BizTelepathy gives you simple tools to organize your business, manage daily operations, track progress, and make smarter decisions—all in one place.</span>
+                        <span className="font-sans sm:text-lg text-md text-gray-700">Completely Free <br/> No subscriptions <br/> No hidden fees</span>
                     </div>
 
                 </div>
